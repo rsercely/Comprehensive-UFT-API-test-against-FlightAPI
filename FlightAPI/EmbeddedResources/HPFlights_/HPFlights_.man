@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>c6e02237-d61e-4bb1-8526-6216f3fe1410</ID>
+  <Name>HPFlights_</Name>
+  <Type>WSDL</Type>
+  <Version>1</Version>
+  <CreationDate>2018-04-23T13:11:59.8092375-05:00</CreationDate>
+  <UpdateDate>2018-04-23T13:11:59.8092375-05:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>08be35ee-590c-438d-8c53-2a627e7a2a02.xml</MetaDataSignatureFile>
+  <TestResourceId>08be35ee-590c-438d-8c53-2a627e7a2a02</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.WebServiceWsdl</SignatureCodonId>
+  <SignatureAddinVersion>14.3.3048.0</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\demo\Documents\Unified Functional Testing\Comprehensive-UFT-API-test-against-FlightAPI\FlightAPI\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\demo\Documents\Unified Functional Testing\Comprehensive-UFT-API-test-against-FlightAPI\FlightAPI\EmbeddedResources\HPFlights_</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>14.3.3048.0</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>

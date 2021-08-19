@@ -1,0 +1,48 @@
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: RollingFileAppender_Web
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: FileAppenderExternal
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: UserLoggerAppender
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: RollingFileAppender_SendUsageReport
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: RollingFileAppender_ParallelMediator
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: BufferingForwardingAppender
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: FileAppenderInternal
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: RollingFileAppender_OICRuntime
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: RollingFileAppender_ParallelRunner
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: RollingFileAppender_RPARunRecord
+2021-08-19 13:15:35,198 [1] INFO  - Loaded appender: RollingFileAppender_HTMLReporter
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_WebDriverHost
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_Mobile
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_ParallelWebClient
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_Qtdrv
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_Web
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: FileAppenderExternal
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: UserLoggerAppender
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_SendUsageReport
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_ParallelMediator
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: BufferingForwardingAppender
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: FileAppenderInternal
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_OICRuntime
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_ParallelRunner
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_RPARunRecord
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_HTMLReporter
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_WebDriverHost
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_Mobile
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_ParallelWebClient
+2021-08-19 13:15:35,214 [1] INFO  - Loaded appender: RollingFileAppender_Qtdrv
+2021-08-19 13:15:35,261 [9] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetFlights xmlns="HP.SOAQ.SampleApp">
+      <DepartureCity>London</DepartureCity>
+      <ArrivalCity>Portland</ArrivalCity>
+      <FlightDate>2021-08-24T00:00:00-05:00</FlightDate>
+    </GetFlights>
+  </Body>
+</Envelope>
+
+2021-08-19 13:15:35,261 [9] INFO  - URL: http://localhost:8000/HPFlights_SOAP
+2021-08-19 13:15:35,261 [9] INFO  - Returning the response to the previous channel
+2021-08-19 13:15:35,277 [9] ERROR - Structural CheckPoint failed : Trying to get XmlNode for Xpath: /*[local-name(.)='Envelope'][1], XmlNode was null
+2021-08-19 13:15:35,277 [9] INFO  - 
+2021-08-19 13:15:35,277 [9] INFO  - Structural Validation: False

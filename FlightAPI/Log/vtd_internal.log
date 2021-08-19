@@ -1,0 +1,14 @@
+2021-08-19 13:15:35,214 [1] ERROR - Error occured while converting the value '' to type 'System.UInt32' with english culture
+System.Exception:  is not a valid value for UInt32. ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   --- End of inner exception stack trace ---
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   at HP.ST.Fwk.RunTimeFWK.Utilities.Utils.ConvertValue(Object val, Type valType)
+2021-08-19 13:15:35,275 [9] ERROR - The server has returned a soap fault :    at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.FailOnResponseErrors(Context context)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.HandleOutputEnvelope(String receivedMessage)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.SendRequestAndHandleResponse(ChannelBase channel, Message request, Context context)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.SendRequestAndHandleResponse(String envelope, Context context, ChannelPipeline pipeline)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.ExecuteStep()
+2021-08-19 13:15:35,277 [9] ERROR - Trying to get XmlNode for Xpath: /*[local-name(.)='Envelope'][1], XmlNode was null
+2021-08-19 13:15:35,277 [9] ERROR - Trying to get XmlNode for Xpath: /*[local-name(.)='Envelope'][1], XmlNode was null
+2021-08-19 13:15:35,277 [9] ERROR - Structural CheckPoint failed :Trying to get XmlNode for Xpath: /*[local-name(.)='Envelope'][1], XmlNode was null
